@@ -1,0 +1,7 @@
+{
+  "_why": "Fireworks is prepaid; the card hit $0 on 2026-10-15 from judge-model grading (see reviews/spend-20261015.md). Every paid run checks these first (scripts/fw_guard.py).",
+  "fw_daily_cap_usd": 10,
+  "fw_low_balance_usd": 15,
+  "judge_reasoning_effort": "low",
+  "low_balance_queue_id_prefix": "fireworks-low-balance"
+}

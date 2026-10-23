@@ -1,0 +1,10 @@
+{"id": "warm-white", "messages": [{"role": "user", "content": "what does warm white look like?"}, {"role": "assistant", "content": "want me to send an example?"}]}
+{"id": "multicolor", "messages": [{"role": "user", "content": "do you have a picture of the multicolor lights?"}, {"role": "assistant", "content": "want to see an example?"}]}
+{"id": "ladders", "messages": [{"role": "user", "content": "i hate getting up on ladders in winter"}, {"role": "assistant", "content": "want us to handle it?"}]}
+{"id": "no-address", "messages": [{"role": "user", "content": "yes please send me a quote"}, {"role": "assistant", "content": "what address should we use?"}]}
+{"id": "quote-address", "messages": [{"role": "user", "content": "yes please, 123 Test Street, Testville"}, {"role": "assistant", "content": "marvin will put the mockup and quote together"}]}
+{"id": "price", "messages": [{"role": "user", "content": "how much does it cost?"}, {"role": "assistant", "content": "what address should we use for a free quote?"}]}
+{"id": "date", "messages": [{"role": "user", "content": "can you come this friday?"}, {"role": "assistant", "content": "marvin can check dates with you"}]}
+{"id": "wreath", "messages": [{"role": "user", "content": "can you add a wreath?"}, {"role": "assistant", "content": "we are focusing on rooflines this season"}]}
+{"id": "upset", "messages": [{"role": "user", "content": "you sent me the wrong mockup and i am upset"}, {"role": "assistant", "content": "can you send a photo so we can fix it?"}]}
+{"id": "real-person", "messages": [{"role": "user", "content": "are you a real person?"}, {"role": "assistant", "content": "someone from our team will reach out"}]}

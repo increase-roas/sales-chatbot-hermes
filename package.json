@@ -1,0 +1,25 @@
+{
+  "name": "sales-chatbot",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "mastra dev",
+    "build": "mastra build",
+    "test": "node --test tests/*.test.ts",
+    "check:gates": "node --experimental-strip-types scripts/check-gates.ts",
+    "export:grades": "node --env-file=.env --experimental-strip-types scripts/export-grades.ts",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "@mastra/core": "^1.77.0",
+    "@mastra/deployer-vercel": "^1.2.36",
+    "@mastra/memory": "^1.37.1",
+    "@mastra/observability": "^1.20.0",
+    "@mastra/pg": "^1.31.1",
+    "@types/node": "^26.6.5",
+    "mastra": "^1.34.1",
+    "typescript": "^7.0.2",
+    "zod": "^4.6.7"
+  }
+}

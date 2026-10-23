@@ -1,0 +1,11 @@
+node_modules/
+.env
+.mastra/
+dist/
+mastra.db*
+.DS_Store
+.vercel/
+.env*
+!.env.example
+.megapowers/
+__pycache__/
