@@ -139,5 +139,20 @@
   ],
   "changes_to_runtime_or_tests": [],
   "deployment_connection": "None created for this copy",
-  "authority": "Alex requested a separate public copy for Hermes review/cleanup while preserving the live agent. This copy does not authorize changes to the original or customer sends."
+  "authority": "Alex requested a separate public copy for Hermes review/cleanup while preserving the live agent. This copy does not authorize changes to the original or customer sends.",
+  "documentation_updates": [
+    {
+      "date": "2026-10-23",
+      "request": "Alex requested complete context locally and in the public Hermes copy without changing the live agent.",
+      "context_file": "AGENT_CONTEXT.md",
+      "context_sha256": "77926894712463e06457fbde5a4c58db414264eda5ee944a9caa27f07fdacc89",
+      "same_public_safe_context_in_original_local_repo": true,
+      "updated_review_documents": [
+        "README.md",
+        "HERMES_REVIEW.md",
+        "COPY_PROVENANCE.json"
+      ],
+      "runtime_test_asset_changes": []
+    }
+  ]
 }

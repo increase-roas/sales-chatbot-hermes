@@ -11,6 +11,8 @@ resume_focus: "Review and simplify the independent copy while preserving the liv
 
 # Hermes review handoff
 
+October 23 context supplement: read [AGENT_CONTEXT.md](AGENT_CONTEXT.md) first. It maps the actual source wiring, all settings groups, routes/authentication, database state, integrations, historical decisions, unresolved components and preservation checks. It is the same public-safe context guide added to the original local repo; it does not contain live credentials, customer records or an active-settings export.
+
 ## User request and authority
 
 Alex's request: “make a separate public copy of the agent too so hermes can review it and clean it up while preserving everything in my live agent”. This document records that request. The copy is independent from the private source repository and its hosting.
@@ -37,7 +39,7 @@ Preserve these while simplifying implementation:
 
 ## Start from these artifacts
 
-1. `package.json`, `package-lock.json`: actual Mastra/TypeScript dependency and check commands.
+1. `AGENT_CONTEXT.md`: source-pinned architecture, external-state inventory, preservation requirements and known gaps; then `package.json`, `package-lock.json` for actual dependencies/check commands.
 2. `src/mastra/agents/sales-agent.ts`: baseline instructions and native tool bindings; `tests/bot-preservation.test.ts` checks the preserved prompt/photo tools.
 3. `docs/manny-control-panel.md`: version, activation, restore and chat contracts; `tests/control-settings.test.ts` and `tests/control-panel-credentials.test.ts` own key regressions.
 4. `docs/dynamite-self-driving.md`: workflow ownership, native adapter boundaries, recovery and activation gaps.

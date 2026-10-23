@@ -1,6 +1,6 @@
 # Manny / Dynamite — Hermes review copy
 
-Independent public review snapshot of the Mastra sales agent. Start with [HERMES_REVIEW.md](HERMES_REVIEW.md).
+Independent public review snapshot of the Mastra sales agent. Start with [AGENT_CONTEXT.md](AGENT_CONTEXT.md) for the full wiring, data/state inventory, preservation contract and known gaps, then [HERMES_REVIEW.md](HERMES_REVIEW.md) for the review handoff.
 
 This repository contains the committed agent source, native Manny control panel, six tools, workflows, approved send-safe photo library, tests, dependency lockfile and operating documentation. Runtime source and tests are unchanged from the captured private build.
 
@@ -26,7 +26,7 @@ npm run typecheck
 npm run build
 ```
 
-Inspect scripts before running them. Do not supply live credentials for a review. The Node test suite uses offline fixtures; real-Postgres integration tests need an explicitly separate disposable test database and may skip without it. The source also contains historical evaluation/training/billing/send scripts: they are preserved for review, not instructions to execute them.
+Inspect scripts before running them. Do not supply live credentials for a review. The Node test suite uses offline fixtures. Real-Postgres integration tests create their own temporary Unix-socket clusters when local PostgreSQL binaries and the installed driver are available; they may skip when those prerequisites are missing. They do not use the live application database. The source also contains historical evaluation/training/billing/send scripts: they are preserved for review, not instructions to execute them.
 
 `.env.example` documents connection names using placeholders. Starting the server or using a real model requires separately configured development credentials and can cause provider calls. No such access is granted by this public repository.
 
